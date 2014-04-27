@@ -7,15 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JSONModel/JSONModelLib.h"
+#import "ExerciseModel.h"
 
-@interface Workout: NSObject
+@protocol WorkoutModel @end
 
-+ (NSString *)makeJSONObject;
+@interface WorkoutModel: NSObject
 
 @property (strong, nonatomic) NSString *clientName;
 @property (strong, nonatomic) NSString *date;
 @property (strong, nonatomic) NSString *clientId;
 @property (strong, nonatomic) NSString *time;
+@property (strong, nonatomic) ExerciseModel* exercises;
 
 @end
 

@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Ross Capdeville. All rights reserved.
 //
 
-#import "Exercise.h"
+#import "ExerciseModel.h"
 
-@implementation Exercise
+@implementation ExerciseModel
 
 @end

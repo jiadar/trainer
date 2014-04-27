@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "WorkoutFeed.h"
+#import "JSONModelLib.h"
 
 @interface FirstViewController : UIViewController
+
 
 @end

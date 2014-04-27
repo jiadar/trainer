@@ -1,15 +1,16 @@
 {
-    "workout": {
-        "id": "7313",
-        "client_name": "Hippo",
+    
+    "workouts": {
+        "clientId": "7313",
+        "clientName": "Hippo",
         "date": "2014-04-26",
         "time": "09:30:00",
         "exercises": [
                       {
-                      "name": "Bench Press",
+                      "exerciseName": "Bench Press",
                       "sets": 3,
                       "reps": 8,
-                      "weight": [
+                      "weights": [
                                  145,
                                  155,
                                  165
@@ -19,10 +20,10 @@
                       "transition_time": 300
                       },
                       {
-                      "name": "Bicep Curl",
+                      "exerciseName": "Bicep Curl",
                       "sets": 3,
                       "reps": 10,
-                      "weight": [
+                      "weights": [
                                  35,
                                  40,
                                  45
@@ -32,10 +33,10 @@
                       "transition_time": 300
                       },
                       {
-                      "name": "Tricep Pulldown",
+                      "exerciseName": "Tricep Pulldown",
                       "sets": 3,
                       "reps": 12,
-                      "weight": [
+                      "weights": [
                                  30,
                                  40,
                                  30
@@ -45,10 +46,10 @@
                       "transition_time": 300
                       },
                       {
-                      "name": "Dumbell Flys",
+                      "exerciseName": "Dumbell Flys",
                       "sets": 3,
                       "reps": 12,
-                      "weight": [
+                      "weights": [
                                  10,
                                  15,
                                  20

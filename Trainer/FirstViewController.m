@@ -14,22 +14,53 @@
 
 - (IBAction)buttonPressed:(id)sender;
 
-
 @end
 
 
 @implementation FirstViewController {
     
     bool start;
-    NSTimeInterval time;
-    
+    NSTimeInterval completionTime;
+    WorkoutFeed *JSONData;
+
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     self.countdown.text = @"00:00";
     start=false;
+    
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"json"];
+    // Retrieve local JSON file called data.json
+    
+    NSLog(@"Read JSON file %@", filePath);
+    
+    NSError *error = nil; // This so that we can access the error if something goes wrong
+    NSData *myJSONData = [NSData dataWithContentsOfFile:filePath options:NSDataReadingMappedIfSafe error:&error];
+    NSString *myJSONString = [[NSString alloc] initWithData:myJSONData encoding:NSUTF8StringEncoding];
+    
+    // Load the file into an NSData object called JSONData
+    // see http://sketchytech.blogspot.com/2012/04/json-and-xcode-ios-basics.html or
+    // http://www.appcoda.com/fetch-parse-json-ios-programming-tutorial/
+    // for how to do a web query
+    
+//    id JSONObject = [NSJSONSerialization
+//                     JSONObjectWithData:myJSONData
+//                     // Creates an Objective-C NSData object from JSON Data
+//                     options:NSJSONReadingAllowFragments
+//                     error:&error];
+    
+    NSLog(@" data %@", myJSONString);
+
+//    NSError* err = nil;
+//    WorkoutFeed* myWorkoutFeed = [[WorkoutFeed alloc] initWithString:myJSONString error:&err];
+    
+//    NSLog(@"workouts: %@", myWorkoutFeed.workouts);
+    
+
 }
 
 - (void)update
@@ -40,7 +71,7 @@
     }
     
     NSTimeInterval currentTime = [NSDate timeIntervalSinceReferenceDate];
-    NSTimeInterval elapsedTime = time - currentTime;
+    NSTimeInterval elapsedTime = completionTime - currentTime;
     
     // We calculate the minutes.
     int minutes = (int)(elapsedTime / 60.0);
@@ -71,7 +102,7 @@
         
         // Gets the current time.
 
-        time = [NSDate timeIntervalSinceReferenceDate] + 375;
+        completionTime = [NSDate timeIntervalSinceReferenceDate] + 375;
         
         // Changes the title of the button to Stop!
         [sender setTitle:@"STOP" forState:UIControlStateNormal];
@@ -90,6 +121,7 @@
         
     }
 }
+
 
 
 @end

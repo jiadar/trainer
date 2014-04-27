@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JSONModel.h"
+#import "WorkoutModel.h"
 
-@interface WorkoutFeed : NSObject
+@interface WorkoutFeed : JSONModel
+
+@property (strong, nonatomic) NSArray<WorkoutModel>* workouts;
 
 @end
