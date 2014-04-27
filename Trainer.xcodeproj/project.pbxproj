@@ -22,6 +22,8 @@
 		9178E1AF190C783E005D4957 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9178E18E190C783E005D4957 /* UIKit.framework */; };
 		9178E1B7190C783E005D4957 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9178E1B5190C783E005D4957 /* InfoPlist.strings */; };
 		9178E1B9190C783E005D4957 /* TrainerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9178E1B8190C783E005D4957 /* TrainerTests.m */; };
+		9178E1C3190C7BE6005D4957 /* 89-dumbell.png in Resources */ = {isa = PBXBuildFile; fileRef = 9178E1C2190C7BE6005D4957 /* 89-dumbell.png */; };
+		9178E1C5190C7C0C005D4957 /* 63-runner.png in Resources */ = {isa = PBXBuildFile; fileRef = 9178E1C4190C7C0C005D4957 /* 63-runner.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		9178E1B4190C783E005D4957 /* TrainerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrainerTests-Info.plist"; sourceTree = "<group>"; };
 		9178E1B6190C783E005D4957 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9178E1B8190C783E005D4957 /* TrainerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainerTests.m; sourceTree = "<group>"; };
+		9178E1C2190C7BE6005D4957 /* 89-dumbell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "89-dumbell.png"; path = "../../../glyphish-icons/PNG icons/89-dumbell.png"; sourceTree = "<group>"; };
+		9178E1C4190C7C0C005D4957 /* 63-runner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "63-runner.png"; path = "../../../glyphish-icons/PNG icons/63-runner.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 		9178E190190C783E005D4957 /* Trainer */ = {
 			isa = PBXGroup;
 			children = (
+				9178E1C4190C7C0C005D4957 /* 63-runner.png */,
+				9178E1C2190C7BE6005D4957 /* 89-dumbell.png */,
 				9178E199190C783E005D4957 /* AppDelegate.h */,
 				9178E19A190C783E005D4957 /* AppDelegate.m */,
 				9178E19C190C783E005D4957 /* Main.storyboard */,
@@ -233,6 +239,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9178E1C5190C7C0C005D4957 /* 63-runner.png in Resources */,
+				9178E1C3190C7BE6005D4957 /* 89-dumbell.png in Resources */,
 				9178E1A6190C783E005D4957 /* Images.xcassets in Resources */,
 				9178E195190C783E005D4957 /* InfoPlist.strings in Resources */,
 				9178E19E190C783E005D4957 /* Main.storyboard in Resources */,
