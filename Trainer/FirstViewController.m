@@ -53,12 +53,12 @@
 //                     options:NSJSONReadingAllowFragments
 //                     error:&error];
     
-    NSLog(@" data %@", myJSONString);
+//    NSLog(@" data %@", myJSONString);
 
-//    NSError* err = nil;
-//    WorkoutFeed* myWorkoutFeed = [[WorkoutFeed alloc] initWithString:myJSONString error:&err];
+    NSError* err = nil;
+    WorkoutFeed* myWorkoutFeed = [[WorkoutFeed alloc] initWithString:myJSONString error:&err];
     
-//    NSLog(@"workouts: %@", myWorkoutFeed.workouts);
+    NSLog(@"workouts: %@", myWorkoutFeed.workouts);
     
 
 }

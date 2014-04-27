@@ -1,63 +1,64 @@
 {
-    
-    "workouts": {
-        "clientId": "7313",
-        "clientName": "Hippo",
-        "date": "2014-04-26",
-        "time": "09:30:00",
-        "exercises": [
-                      {
-                      "exerciseName": "Bench Press",
-                      "sets": 3,
-                      "reps": 8,
-                      "weights": [
-                                 145,
-                                 155,
-                                 165
-                                 ],
-                      "time_per_set": 180,
-                      "rest_time_per_set": 30,
-                      "transition_time": 300
-                      },
-                      {
-                      "exerciseName": "Bicep Curl",
-                      "sets": 3,
-                      "reps": 10,
-                      "weights": [
-                                 35,
-                                 40,
-                                 45
-                                 ],
-                      "time_per_set": 150,
-                      "rest_time_per_set": 20,
-                      "transition_time": 300
-                      },
-                      {
-                      "exerciseName": "Tricep Pulldown",
-                      "sets": 3,
-                      "reps": 12,
-                      "weights": [
-                                 30,
-                                 40,
-                                 30
-                                 ],
-                      "time_per_set": 120,
-                      "rest_time_per_set": 30,
-                      "transition_time": 300
-                      },
-                      {
-                      "exerciseName": "Dumbell Flys",
-                      "sets": 3,
-                      "reps": 12,
-                      "weights": [
-                                 10,
-                                 15,
-                                 20
-                                 ],
-                      "time_per_set": 150,
-                      "rest_time_per_set": 30,
-                      "transition_time": 300
-                      }
-                      ]
-    }
+    "workouts": [
+                {
+                "clientId": "7313",
+                "clientName": "Hippo",
+                "date": "2014-04-26",
+                "time": "09:30:00",
+                "exercises": [
+                              {
+                              "exerciseName": "Bench Press",
+                              "sets": 3,
+                              "reps": 8,
+                              "weights": [
+                                          145,
+                                          155,
+                                          165
+                                          ],
+                              "time_per_set": 180,
+                              "rest_time_per_set": 30,
+                              "transition_time": 300
+                              },
+                              {
+                              "exerciseName": "Bicep Curl",
+                              "sets": 3,
+                              "reps": 10,
+                              "weights": [
+                                          35,
+                                          40,
+                                          45
+                                          ],
+                              "time_per_set": 150,
+                              "rest_time_per_set": 20,
+                              "transition_time": 300
+                              },
+                              {
+                              "exerciseName": "Tricep Pulldown",
+                              "sets": 3,
+                              "reps": 12,
+                              "weights": [
+                                          30,
+                                          40,
+                                          30
+                                          ],
+                              "time_per_set": 120,
+                              "rest_time_per_set": 30,
+                              "transition_time": 300
+                              },
+                              {
+                              "exerciseName": "Dumbell Flys",
+                              "sets": 3,
+                              "reps": 12,
+                              "weights": [
+                                          10,
+                                          15,
+                                          20
+                                          ],
+                              "time_per_set": 150,
+                              "rest_time_per_set": 30,
+                              "transition_time": 300
+                              }
+                              ]
+                }
+                ]
 }

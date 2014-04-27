@@ -24,6 +24,21 @@
 		9178E1B9190C783E005D4957 /* TrainerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9178E1B8190C783E005D4957 /* TrainerTests.m */; };
 		9178E1C3190C7BE6005D4957 /* 89-dumbell.png in Resources */ = {isa = PBXBuildFile; fileRef = 9178E1C2190C7BE6005D4957 /* 89-dumbell.png */; };
 		9178E1C5190C7C0C005D4957 /* 63-runner.png in Resources */ = {isa = PBXBuildFile; fileRef = 9178E1C4190C7C0C005D4957 /* 63-runner.png */; };
+		91EDD32C190DA948008F209E /* JSONModel+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDD313190DA948008F209E /* JSONModel+CoreData.m */; };
+		91EDD32D190DA948008F209E /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDD315190DA948008F209E /* JSONModel.m */; };
+		91EDD32E190DA948008F209E /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDD317190DA948008F209E /* JSONModelArray.m */; };
+		91EDD32F190DA948008F209E /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDD319190DA948008F209E /* JSONModelClassProperty.m */; };
+		91EDD330190DA948008F209E /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDD31B190DA948008F209E /* JSONModelError.m */; };
+		91EDD331190DA948008F209E /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDD31E190DA948008F209E /* NSArray+JSONModel.m */; };
+		91EDD332190DA948008F209E /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDD322190DA948008F209E /* JSONAPI.m */; };
+		91EDD333190DA948008F209E /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDD324190DA948008F209E /* JSONHTTPClient.m */; };
+		91EDD334190DA948008F209E /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDD326190DA948008F209E /* JSONModel+networking.m */; };
+		91EDD335190DA948008F209E /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDD329190DA948008F209E /* JSONKeyMapper.m */; };
+		91EDD336190DA948008F209E /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDD32B190DA948008F209E /* JSONValueTransformer.m */; };
+		91EDD339190DACAC008F209E /* ExerciseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDD338190DACAC008F209E /* ExerciseModel.m */; };
+		91EDD33C190DB0B3008F209E /* WorkoutFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EDD33B190DB0B3008F209E /* WorkoutFeed.m */; };
+		91F480BA190CE29C000F8AB1 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 91F480B9190CE29C000F8AB1 /* data.json */; };
+		91F480BD190D830D000F8AB1 /* WorkoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F480BC190D830D000F8AB1 /* WorkoutModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +75,36 @@
 		9178E1B8190C783E005D4957 /* TrainerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainerTests.m; sourceTree = "<group>"; };
 		9178E1C2190C7BE6005D4957 /* 89-dumbell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "89-dumbell.png"; path = "../../../glyphish-icons/PNG icons/89-dumbell.png"; sourceTree = "<group>"; };
 		9178E1C4190C7C0C005D4957 /* 63-runner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "63-runner.png"; path = "../../../glyphish-icons/PNG icons/63-runner.png"; sourceTree = "<group>"; };
+		91EDD312190DA948008F209E /* JSONModel+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+CoreData.h"; sourceTree = "<group>"; };
+		91EDD313190DA948008F209E /* JSONModel+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+CoreData.m"; sourceTree = "<group>"; };
+		91EDD314190DA948008F209E /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		91EDD315190DA948008F209E /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		91EDD316190DA948008F209E /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		91EDD317190DA948008F209E /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		91EDD318190DA948008F209E /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		91EDD319190DA948008F209E /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		91EDD31A190DA948008F209E /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		91EDD31B190DA948008F209E /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		91EDD31D190DA948008F209E /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		91EDD31E190DA948008F209E /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		91EDD31F190DA948008F209E /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		91EDD321190DA948008F209E /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		91EDD322190DA948008F209E /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		91EDD323190DA948008F209E /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		91EDD324190DA948008F209E /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		91EDD325190DA948008F209E /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		91EDD326190DA948008F209E /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		91EDD328190DA948008F209E /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		91EDD329190DA948008F209E /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		91EDD32A190DA948008F209E /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		91EDD32B190DA948008F209E /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		91EDD337190DACAC008F209E /* ExerciseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseModel.h; sourceTree = "<group>"; };
+		91EDD338190DACAC008F209E /* ExerciseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseModel.m; sourceTree = "<group>"; };
+		91EDD33A190DB0B3008F209E /* WorkoutFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutFeed.h; sourceTree = "<group>"; };
+		91EDD33B190DB0B3008F209E /* WorkoutFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutFeed.m; sourceTree = "<group>"; };
+		91F480B9190CE29C000F8AB1 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		91F480BB190D830D000F8AB1 /* WorkoutModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutModel.h; sourceTree = "<group>"; };
+		91F480BC190D830D000F8AB1 /* WorkoutModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +134,7 @@
 		9178E17E190C783E005D4957 = {
 			isa = PBXGroup;
 			children = (
+				91EDD310190DA948008F209E /* JSONModel */,
 				9178E190190C783E005D4957 /* Trainer */,
 				9178E1B2190C783E005D4957 /* TrainerTests */,
 				9178E189190C783E005D4957 /* Frameworks */,
@@ -130,6 +176,12 @@
 				9178E1A3190C783E005D4957 /* SecondViewController.m */,
 				9178E1A5190C783E005D4957 /* Images.xcassets */,
 				9178E191190C783E005D4957 /* Supporting Files */,
+				91F480BB190D830D000F8AB1 /* WorkoutModel.h */,
+				91F480BC190D830D000F8AB1 /* WorkoutModel.m */,
+				91EDD337190DACAC008F209E /* ExerciseModel.h */,
+				91EDD338190DACAC008F209E /* ExerciseModel.m */,
+				91EDD33A190DB0B3008F209E /* WorkoutFeed.h */,
+				91EDD33B190DB0B3008F209E /* WorkoutFeed.m */,
 			);
 			path = Trainer;
 			sourceTree = "<group>";
@@ -137,6 +189,7 @@
 		9178E191190C783E005D4957 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				91F480B9190CE29C000F8AB1 /* data.json */,
 				9178E192190C783E005D4957 /* Trainer-Info.plist */,
 				9178E193190C783E005D4957 /* InfoPlist.strings */,
 				9178E196190C783E005D4957 /* main.m */,
@@ -161,6 +214,69 @@
 				9178E1B5190C783E005D4957 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91EDD310190DA948008F209E /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				91EDD311190DA948008F209E /* JSONModel */,
+				91EDD31C190DA948008F209E /* JSONModelCategories */,
+				91EDD31F190DA948008F209E /* JSONModelLib.h */,
+				91EDD320190DA948008F209E /* JSONModelNetworking */,
+				91EDD327190DA948008F209E /* JSONModelTransformations */,
+			);
+			name = JSONModel;
+			path = Trainer/JSONModel;
+			sourceTree = "<group>";
+		};
+		91EDD311190DA948008F209E /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				91EDD312190DA948008F209E /* JSONModel+CoreData.h */,
+				91EDD313190DA948008F209E /* JSONModel+CoreData.m */,
+				91EDD314190DA948008F209E /* JSONModel.h */,
+				91EDD315190DA948008F209E /* JSONModel.m */,
+				91EDD316190DA948008F209E /* JSONModelArray.h */,
+				91EDD317190DA948008F209E /* JSONModelArray.m */,
+				91EDD318190DA948008F209E /* JSONModelClassProperty.h */,
+				91EDD319190DA948008F209E /* JSONModelClassProperty.m */,
+				91EDD31A190DA948008F209E /* JSONModelError.h */,
+				91EDD31B190DA948008F209E /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		91EDD31C190DA948008F209E /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				91EDD31D190DA948008F209E /* NSArray+JSONModel.h */,
+				91EDD31E190DA948008F209E /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		91EDD320190DA948008F209E /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				91EDD321190DA948008F209E /* JSONAPI.h */,
+				91EDD322190DA948008F209E /* JSONAPI.m */,
+				91EDD323190DA948008F209E /* JSONHTTPClient.h */,
+				91EDD324190DA948008F209E /* JSONHTTPClient.m */,
+				91EDD325190DA948008F209E /* JSONModel+networking.h */,
+				91EDD326190DA948008F209E /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		91EDD327190DA948008F209E /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				91EDD328190DA948008F209E /* JSONKeyMapper.h */,
+				91EDD329190DA948008F209E /* JSONKeyMapper.m */,
+				91EDD32A190DA948008F209E /* JSONValueTransformer.h */,
+				91EDD32B190DA948008F209E /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9178E1C5190C7C0C005D4957 /* 63-runner.png in Resources */,
+				91F480BA190CE29C000F8AB1 /* data.json in Resources */,
 				9178E1C3190C7BE6005D4957 /* 89-dumbell.png in Resources */,
 				9178E1A6190C783E005D4957 /* Images.xcassets in Resources */,
 				9178E195190C783E005D4957 /* InfoPlist.strings in Resources */,
@@ -262,9 +379,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91EDD32D190DA948008F209E /* JSONModel.m in Sources */,
 				9178E1A4190C783E005D4957 /* SecondViewController.m in Sources */,
+				91EDD32F190DA948008F209E /* JSONModelClassProperty.m in Sources */,
 				9178E19B190C783E005D4957 /* AppDelegate.m in Sources */,
+				91EDD32C190DA948008F209E /* JSONModel+CoreData.m in Sources */,
+				91EDD33C190DB0B3008F209E /* WorkoutFeed.m in Sources */,
+				91EDD339190DACAC008F209E /* ExerciseModel.m in Sources */,
+				91EDD334190DA948008F209E /* JSONModel+networking.m in Sources */,
+				91F480BD190D830D000F8AB1 /* WorkoutModel.m in Sources */,
+				91EDD32E190DA948008F209E /* JSONModelArray.m in Sources */,
+				91EDD333190DA948008F209E /* JSONHTTPClient.m in Sources */,
+				91EDD335190DA948008F209E /* JSONKeyMapper.m in Sources */,
+				91EDD331190DA948008F209E /* NSArray+JSONModel.m in Sources */,
+				91EDD336190DA948008F209E /* JSONValueTransformer.m in Sources */,
+				91EDD332190DA948008F209E /* JSONAPI.m in Sources */,
 				9178E1A1190C783E005D4957 /* FirstViewController.m in Sources */,
+				91EDD330190DA948008F209E /* JSONModelError.m in Sources */,
 				9178E197190C783E005D4957 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +605,7 @@
 				9178E1BE190C783E005D4957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9178E1BF190C783E005D4957 /* Build configuration list for PBXNativeTarget "TrainerTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +614,7 @@
 				9178E1C1190C783E005D4957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
