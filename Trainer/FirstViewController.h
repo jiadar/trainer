@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-NSTimer *timer;
-NSInteger ti = 375;
 
 @interface FirstViewController : UIViewController
 
