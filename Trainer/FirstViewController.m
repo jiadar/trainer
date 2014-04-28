@@ -7,6 +7,9 @@
 //
 
 #import "FirstViewController.h"
+#import "JSONModelLib.h"
+#import "Workout.h"
+#import "Exercise.h"
 
 @interface FirstViewController ()
 
@@ -21,7 +24,7 @@
     
     bool start;
     NSTimeInterval completionTime;
-    WorkoutFeed *JSONData;
+    Workout *workout;
 
 }
 
@@ -32,34 +35,31 @@
     self.countdown.text = @"00:00";
     start=false;
     
+    // Read the JSON from simpledata.json file
+    // Eventually this will be changed to the web with the API call to the client specific workout
     
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"json"];
-    // Retrieve local JSON file called data.json
-    
-    NSLog(@"Read JSON file %@", filePath);
-    
-    NSError *error = nil; // This so that we can access the error if something goes wrong
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"simpledata" ofType:@"json"];
+    NSError *error = nil;
     NSData *myJSONData = [NSData dataWithContentsOfFile:filePath options:NSDataReadingMappedIfSafe error:&error];
     NSString *myJSONString = [[NSString alloc] initWithData:myJSONData encoding:NSUTF8StringEncoding];
     
-    // Load the file into an NSData object called JSONData
-    // see http://sketchytech.blogspot.com/2012/04/json-and-xcode-ios-basics.html or
-    // http://www.appcoda.com/fetch-parse-json-ios-programming-tutorial/
-    // for how to do a web query
+    // Use JSONModel to assign the JSON to a Workout object
     
-//    id JSONObject = [NSJSONSerialization
-//                     JSONObjectWithData:myJSONData
-//                     // Creates an Objective-C NSData object from JSON Data
-//                     options:NSJSONReadingAllowFragments
-//                     error:&error];
+    workout = [[Workout alloc] initWithString:myJSONString error:&error];
+ 
+    // To get the entire workout (all exercises) print the object Exercises:
     
-//    NSLog(@" data %@", myJSONString);
+    NSLog(@"All Exercises: %@", workout.exercises);
 
-    NSError* err = nil;
-    WorkoutFeed* myWorkoutFeed = [[WorkoutFeed alloc] initWithString:myJSONString error:&err];
+    // To get the data for a single exercise, cast an element of the array to Exercise:
     
-    NSLog(@"workouts: %@", myWorkoutFeed.workouts);
+    Exercise *exercise = (Exercise*)[workout.exercises objectAtIndex:1];
     
+    NSLog(@"DEBUG DATA: %@", exercise);
+
+    // To get the data for an element of the exercise, ie. reps, access the necessary class variable from the model:
+
+    NSLog(@"DEBUG DATA: %@", exercise.reps);
 
 }
 

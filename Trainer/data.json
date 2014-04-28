@@ -59,6 +59,67 @@
                               "transition_time": 300
                               }
                               ]
-                }
+                },
+                 {
+                 "clientId": "7313",
+                 "clientName": "Hippo",
+                 "date": "2014-04-27",
+                 "time": "10:30:00",
+                 "exercises": [
+                               {
+                               "exerciseName": "Lat Pull",
+                               "sets": 3,
+                               "reps": 8,
+                               "weights": [
+                                           145,
+                                           155,
+                                           165
+                                           ],
+                               "time_per_set": 180,
+                               "rest_time_per_set": 30,
+                               "transition_time": 300
+                               },
+                               {
+                               "exerciseName": "Dumb Lift",
+                               "sets": 3,
+                               "reps": 10,
+                               "weights": [
+                                           35,
+                                           40,
+                                           45
+                                           ],
+                               "time_per_set": 150,
+                               "rest_time_per_set": 20,
+                               "transition_time": 300
+                               },
+                               {
+                               "exerciseName": "Eat Cupcakes",
+                               "sets": 3,
+                               "reps": 12,
+                               "weights": [
+                                           30,
+                                           40,
+                                           30
+                                           ],
+                               "time_per_set": 120,
+                               "rest_time_per_set": 30,
+                               "transition_time": 300
+                               },
+                               {
+                               "exerciseName": "Drink Coffee",
+                               "sets": 3,
+                               "reps": 12,
+                               "weights": [
+                                           10,
+                                           15,
+                                           20
+                                           ],
+                               "time_per_set": 150,
+                               "rest_time_per_set": 30,
+                               "transition_time": 300
+                               }
+                               ]
+                 }
+                 
                 ]
 }

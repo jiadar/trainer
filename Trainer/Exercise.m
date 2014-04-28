@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Ross Capdeville. All rights reserved.
 //
 
-#import "WorkoutModel.h"
+#import "Exercise.h"
 
-@implementation WorkoutModel : NSObject
+@implementation Exercise: JSONModel
 
 
 @end

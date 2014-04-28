@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Ross Capdeville. All rights reserved.
 //
 
-#import "WorkoutFeed.h"
+#import "Workout.h"
 
-@implementation WorkoutFeed
+@implementation Workout
 
 @end

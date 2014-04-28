@@ -1,0 +1,31 @@
+{
+    "exercises": [
+                {
+                "exerciseName": "Bench Press",
+                "sets": 3,
+                "weights": [145, 155, 165],
+                "reps": 8,
+                "time_per_set": 180,
+                "rest_time_per_set": 30,
+                "transition_time": 300
+                },
+                {
+                "exerciseName": "Lat Press",
+                "sets": 4,
+                "reps": 3,
+                "weights": [145, 155, 165],
+                "time_per_set": 130,
+                "rest_time_per_set": 20,
+                "transition_time": 200
+                },
+                {
+                "exerciseName": "Doughnut Eating",
+                "sets": 12,
+                "weights": [145, 155, 165],
+                "reps": 4,
+                "time_per_set": 180,
+                "rest_time_per_set": 30,
+                "transition_time": 300
+                }
+                ]
+}
